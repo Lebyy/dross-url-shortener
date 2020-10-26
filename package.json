@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sujalgoel/dross.git"
+    "url": "git+https://github.com/sujalgoel/dross-url-shortener.git"
   },
   "keywords": [],
   "author": "Sujal Goel",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sujalgoel/dross/issues"
+    "url": "https://github.com/sujalgoel/dross-url-shortener/issues"
   },
-  "homepage": "https://github.com/sujalgoel/dross#readme",
+  "homepage": "https://github.com/sujalgoel/dross-url-shortener#readme",
   "dependencies": {
     "crypto": "^1.0.1",
     "dotenv": "^8.2.0",
