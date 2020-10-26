@@ -1,0 +1,316 @@
+html {
+	height: -webkit-fill-available;
+	height: 100%;
+	outline: none;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	background-color: #323133;
+	font-family: canada-type-gibson, sans-serif;
+	height: 100%;
+	min-height: -webkit-fill-available;
+	outline: none;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: -webkit-fill-available;
+	height: calc(100% - 4rem);
+	padding: 1rem 2rem;
+	outline: none;
+}
+
+.number h1 {
+	text-align: center;
+	outline: none;
+}
+
+#home {
+	text-decoration: none;
+	outline: none;
+}
+
+.flex {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	outline: none;
+}
+
+.form {
+	display: flex;
+	outline: none;
+	flex-direction: column;
+}
+
+.long {
+	outline: none;
+}
+
+input {
+	width: 94%;
+	border: none;
+	outline: none;
+	border-radius: 12px;
+	padding: 10px 10px;
+	background-color: #323133;
+	margin: 5px 0 0px 0;
+	color: #d0d066;
+	border: 1px solid #d0d066;
+	font-family: "canada-type-gibson";
+	font-size: 1rem;
+}
+
+.short {
+	margin-top: 20px;
+	outline: none;
+}
+
+.short:focus {
+	outline: none;
+}
+
+.error {
+	color: #ff6969;
+	margin-top: 10px;
+	margin-bottom: 0;
+	outline: none;
+}
+
+::-webkit-input-placeholder {
+	color: #bfbfbf;
+	font-family: "canada-type-gibson";
+	outline: none;
+	font-size: 1rem;
+}
+
+:-ms-input-placeholder {
+	color: #bfbfbf;
+	font-family: "canada-type-gibson";
+	outline: none;
+	font-size: 1rem;
+}
+
+::placeholder {
+	color: #bfbfbf;
+	outline: none;
+	font-family: "canada-type-gibson";
+	font-size: 1rem;
+}
+
+label {
+	color: white;
+	margin-bottom: 20px;
+	outline: none;
+}
+
+.form-and-title h1 {
+	outline: none;
+	text-align: center;
+	font-weight: 600;
+}
+
+form {
+	margin-top: 20px;
+	outline: none;
+}
+
+.output {
+	background-color: #d0d066;
+	outline: none;
+	color: #323133;
+	border-radius: 12px;
+	padding: 10px 20px;
+	margin: 30px 0;
+}
+
+.footer-link {
+	color: white;
+	text-decoration: none;
+	outline: none;
+}
+
+.footer-link:hover {
+	color: #d0d066;
+	outline: none;
+	text-decoration-line: line-through;
+}
+
+.output p {
+	outline: none;
+	color: #323133;
+	text-align: center;
+}
+
+.heading {
+	text-align: center;
+	outline: none;
+}
+
+.heading .cow {
+	margin-left: 10px;
+	outline: none;
+}
+
+.heading h1 {
+	vertical-align: bottom;
+	outline: none;
+}
+
+.heading h1,
+.heading .cow {
+	display: inline;
+	outline: none;
+}
+
+.cow {
+	vertical-align: baseline;
+	outline: none;
+}
+
+.fa-copy {
+	margin-left: 10px;
+	outline: none;
+}
+
+.fa-copy:hover {
+	outline: none;
+	cursor: pointer;
+	transition: 0.3s ease all;
+
+}
+
+.output h1 {
+	text-align: center;
+	font-weight: 600;
+	outline: none;
+	color: #323133;
+	font-size: 1.6rem;
+	word-break: break-word;
+}
+
+h1 a:hover {
+	color: #323133;
+	outline: none;
+	transition: 0.3s ease all;
+}
+
+h1 a {
+	outline: none;
+	color: inherit;
+}
+
+.button {
+	outline: none;
+	display: flex;
+}
+
+button {
+	outline: none;
+	border: none;
+	background-color: #d0d066;
+	color: #323133;
+	font-family: "canada-type-gibson";
+	font-size: 1rem;
+	margin: auto;
+	padding: 12px 15px 10px 15px;
+	border-radius: 12px;
+}
+
+button:hover {
+	background-color: #323133;
+	outline: none;
+	transition: 0.3s ease all;
+	cursor: pointer;
+	color: #d0d066;
+	border: 1px solid #d0d066;
+}
+
+button:focus {
+	outline: none;
+}
+
+footer {
+	border-top: 2px solid #d0d066;
+	outline: none;
+	padding-top: 10px;
+}
+
+footer p {
+	text-align: center;
+	outline: none;
+	color: white;
+	font-size: 1.2rem;
+	margin: 5px 0 0 0;
+}
+
+@media screen and (max-width: 640px) {
+	.output h1 {
+		outline: none;
+		font-size: 1.5rem;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.output h1 {
+		outline: none;
+		font-size: 1.3rem;
+	}
+}
+
+#link {
+	opacity: none;
+	outline: none;
+	font-size: 1px;
+	margin: 0;
+	padding: 0;
+}
+
+.captcha-container {
+	outline: none;
+	display: flex;
+}
+
+.g-recaptcha {
+	margin: 20px auto;
+	outline: none;
+}
+
+.number {
+	color: white;
+	display: flex;
+	outline: none;
+	justify-content: center;
+	align-items: center;
+	height: 50vh;
+}
+
+.number h1 {
+	font-weight: 600;
+	font-size: 1.5em;
+	outline: none;
+}
+
+.info {
+	color: white;
+	outline: none;
+	margin-bottom: 20px;
+}
+
+.info p {
+	font-size: 1rem;
+	outline: none;
+	text-align: center;
+	margin: 0;
+}
+
+.info .fas {
+	outline: none;
+	margin-right: 10px;
+}
